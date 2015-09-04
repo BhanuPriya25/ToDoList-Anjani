@@ -27,7 +27,7 @@ if (Meteor.isClient) {
       event.preventDefault();
       // Get value from form element
       var text = event.target.text.value;
-
+alert("for changing text=" +text);
       // Insert a task into the collection
       // Tasks.insert({
       //   text: text,
